@@ -9,8 +9,8 @@ export default function Dashboard() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  // You can change this BASE_URL if your backend is deployed
-  const BASE_URL ='http://localhost:3000';
+  // Base url
+  const BASE_URL ='https://tinylink-dfb6.onrender.com';
 
   // Load all links from backend
   const loadLinks = async () => {
@@ -133,3 +133,4 @@ export default function Dashboard() {
     </div>
   );
 }
+
