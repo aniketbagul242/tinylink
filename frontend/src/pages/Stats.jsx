@@ -8,7 +8,7 @@ export default function Stats() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
-  const BASE_URL ='http://localhost:3000';
+  const BASE_URL ='https://tinylink-dfb6.onrender.com';
 
 
   useEffect(() => {
@@ -69,3 +69,4 @@ export default function Stats() {
     </div>
   );
 }
+
