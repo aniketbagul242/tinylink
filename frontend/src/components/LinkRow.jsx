@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function LinkRow({ item, onDelete }) {
-  const BASE_URL ='http://localhost:3000';
+  const BASE_URL ='https://tinylink-dfb6.onrender.com';
 
   return (
     <tr className="border-t hover:bg-gray-50">
@@ -39,3 +39,4 @@ export default function LinkRow({ item, onDelete }) {
     </tr>
   );
 }
+
