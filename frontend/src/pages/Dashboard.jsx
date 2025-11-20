@@ -10,7 +10,7 @@ export default function Dashboard() {
 
 
   // Base url
-  const BASE_URL ='https://tinylink-dfb6.onrender.com';
+  const BASE_URL ="http://localhost:3000"
 
 
   const loadLinks = async () => {
@@ -131,7 +131,7 @@ export default function Dashboard() {
                 const shortUrl = `${BASE_URL}/${item.code}`;
                 return (
                   <tr key={item.code} className="hover:bg-gray-50">
-                    <td className="border px-2 py-2 break-words">
+                    <td className="border px-2 py-2 ">
                       <a
                         href={shortUrl}
                         target="_blank"
@@ -186,5 +186,4 @@ export default function Dashboard() {
     </div>
   );
 }
-
 
