@@ -10,8 +10,7 @@ export default function Dashboard() {
 
 
   // Base url
-  const BASE_URL ="http://localhost:3000"
-
+  const BASE_URL ='https://tinylink-dfb6.onrender.com';
 
   const loadLinks = async () => {
     setLoading(true);
@@ -186,4 +185,5 @@ export default function Dashboard() {
     </div>
   );
 }
+
 
