@@ -8,12 +8,10 @@ export default function Dashboard() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-<<<<<<< HEAD
+
   // Base url
   const BASE_URL ='https://tinylink-dfb6.onrender.com';
-=======
-  const BASE_URL = 'http://localhost:3000'; // replace with deployed URL
->>>>>>> 0f1ff59 (updated dashboard)
+
 
   const loadLinks = async () => {
     setLoading(true);
@@ -188,4 +186,5 @@ export default function Dashboard() {
     </div>
   );
 }
+
 
